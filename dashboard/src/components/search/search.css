@@ -1,0 +1,70 @@
+.search__form{
+    border: solid rgba(0, 0, 0, 0.182) 1px;
+    border-radius: 7px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding:  0 10px;
+    margin: 0 20px;
+  
+}
+
+.search__input{
+    border: none;
+    padding: 0 0 0 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.search__icon{
+    width: 12px;
+}
+.search__bars{
+    background-color: rgba(229, 185, 229, 0.501);
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+}
+.search__faBars{
+    width: 12px;
+}
+.user{
+   
+    width: 20%;
+}
+
+.user__config{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.user__noti{
+    background-color: rgba(229, 185, 229, 0.501);
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+}
+.user__element{
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 230, 230); 
+    padding: 4px px;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 40%;
+}
+.user__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+

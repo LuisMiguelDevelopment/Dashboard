@@ -1,167 +1,18 @@
-.general{
-    display: flex;
-}
-.navbar{
-    width: 20%;
-    padding: 10px;
-    height: 100px;
-}
-.navbar__header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar__logo{
-    display: flex;
-    align-items: center;
-}
-
-.navbar__bars{
-    background-color: rgba(238, 94, 238, 0.239);
-    border-radius: 8px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;   
-}
-
-
-.navbar__img{
-    width: 35px;
-}
-
-
-.vertical__seccion{
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.vertical__seccion{
-    padding: 20px 0;
-}
-
-.vertical__layout{
-    background-color: rgb(255, 255, 253);
-    width: 100%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    border-radius: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: rgb(70, 68, 68);
-}
-
-.vertical__span{
-    padding: 0 0 0 10px;
-}
-
-.navbar__span{
-    font-weight:  900;
-}
-
-.navbar__span--small{
-    font-size: 0.7rem;
-    font-weight: 100;
-}
-.search{
-    display: flex;
-    align-items: center;
-    height: 70px;
-    justify-content: space-between;
-    width: 100%;
-}
-.main{
-    width: 100%;
-}
-.search__form{
-    border: solid rgba(0, 0, 0, 0.182) 1px;
-    border-radius: 7px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding:  0 30px;
-   margin: 0 8px;
-  
-}
-
-.search__input{
-    border: none;
-    padding: 0 0 0 10px;
-    background-color: rgba(240, 248, 255, 0);
-}
-
-.search__icon{
-    width: 12px;
-}
-.search__bars{
-    background-color: rgba(229, 185, 229, 0.501);
-    border-radius: 8px;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;  
-}
-.search__faBars{
-    width: 12px;
-}
-.user{
-   
-    width: 20%;
-}
-
-.user__config{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-   
-}
-
-.user__noti{
-    background-color: rgba(229, 185, 229, 0.501);
-    border-radius: 8px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;   
-}
-.user__element{
-    display: flex;
-    align-items: center;
-    background-color: rgb(224, 230, 230); 
-    padding: 4px 10px;
-    border-radius: 20px;
-    justify-content: space-between;
-    width: 40%;
-}
-.user__img{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
 
 .central{
     background-color: rgb(241, 242, 244);
-   
+    width: 100%;
     border-radius: 10px;
 
 }
 .central__header{
     display: flex;
+   
 }
 
 .central__card{
     height: 150px;
-    width: 30%;
+    width: 100%;
     border-radius:12px ;
     margin: 15px;
     position: relative;
@@ -221,4 +72,109 @@
 
 .central__span{
     font-size: 0.8rem;
+}
+.estadisticas{
+   padding: 20px;
+   background-color: white;
+   border-radius: 15px;
+   margin: 10px;
+}
+.estadisticas__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.estadisticas__growth{
+    display: flex;
+    flex-direction: column;
+}
+
+.estadisticas__span{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.estaditicas__price{
+    font-weight:900;
+}
+
+
+
+.section1{
+    display: flex;
+    width: 100%;
+}
+.lateral__izquierdo{
+    
+    width: 50%;
+}
+
+.estaditicas__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid black 1px;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    width: 60px;
+}
+.estaditicas__button:hover{
+    background-color: rgb(54, 93, 210);
+    color: white;
+}
+
+
+.lateral__card{
+    margin: 5px 0 0 0 ;
+    height: 70px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.lateral__card--azul{
+    background-color: rgb(54, 93, 210); 
+}
+
+.lateral__icon{
+    background-color: rgba(255, 255, 255, 0.102);
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 10px;
+}
+
+.lateral__icon2{
+    height: 20px;
+    width: 20px;
+}
+
+.lateral__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral__infoo{
+    font-size: 0.7rem;
+}
+
+.lateral__card--yellow{
+    color: black;
+    background-color: rgb(244, 246, 248);
+    
+}
+
+.lateral__icon2--yellow{
+    color:rgb(255, 136, 0);
+    background-color: rgba(206, 212, 25, 0.227);
 }
