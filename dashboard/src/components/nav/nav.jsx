@@ -5,6 +5,7 @@ import {AiFillDashboard ,AiOutlineChrome , AiOutlineQuestionCircle  } from 'reac
 import {GoKey} from 'react-icons/go'
 import {TbTypography ,TbShadow ,TbBrandGooglePhotos} from 'react-icons/tb'
 import {IoColorPaletteOutline } from 'react-icons/io5'
+import { Link  , Outlet} from 'react-router-dom'
 
 
 
@@ -40,14 +41,14 @@ const nav = () => {
                     </div>
                     <div className="vertical__seccion">
                         <span className="navbar__span">Utilities</span>
-                        <a href='' className="vertical__layout">
+                        <Link to="/typography" className="vertical__layout">
                             <TbTypography/>
                             <span className='vertical__span'>Typography</span>
-                        </a>
-                        <a href='' className="vertical__layout">
+                        </Link>
+                        <Link to="/color" className="vertical__layout">
                             <IoColorPaletteOutline/>
                             <span className='vertical__span'>Color</span>
-                        </a>
+                        </Link>
                         <a href='' className="vertical__layout">
                             <TbShadow/>
                             <span className='vertical__span'>Shadow</span>
@@ -72,6 +73,7 @@ const nav = () => {
             </div>
            
         </nav>
+        <Outlet/>
     </div>
   )
 }
