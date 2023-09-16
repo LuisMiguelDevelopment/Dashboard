@@ -2,7 +2,7 @@ import './dashboard.css'
 import { AiFillCheckCircle} from 'react-icons/ai'
 import {IoIosCash } from 'react-icons/io'
 import { BsThreeDots} from 'react-icons/bs'
-import { AiOutlineShop} from 'react-icons/ai'
+import { AiOutlineShop , AiOutlineUpCircle , AiOutlineDownCircle} from 'react-icons/ai'
 import estadisticas from './img/estadisticas.png'
 
 const dashboard = () => {
@@ -80,6 +80,73 @@ const dashboard = () => {
                                 <span className="lateral__price">$203k</span>
                                 <span className="lateral__infoo">Total Income</span>
                             </div>
+                        </div>
+                    </div>
+                    <div className="lateral__main">
+                        <div className="popular">
+                            <span className="pupular__span">Popular Stocks</span>
+                            <div className="popular__card">
+                                <div className="popular__info">
+                                    <span className="popular__titleSpan">Bajaj Finery</span>
+                                    <span className="popular__porcentaje">10% Profit</span>
+                                </div>
+                                <span className="popular__price">$1839.00</span> 
+                            </div>
+                        </div>
+                        <div className="prices">
+                            <div className="prices__card">
+                                <div className="prices__info">
+                                    <span className="princes__empresa">Bajaj Finery</span>
+                                    <span className="princes__porcentaje princes__porcentaje--verde">10% Profit</span>
+                                </div>
+                                <div className="prices__lateral">
+                                    <span className="prices__price">$1839.00</span>
+                                    <AiOutlineUpCircle className='price__circule price__circule--green'/> 
+                                </div>    
+                            </div>
+
+                            <div className="prices__card">
+                                <div className="prices__info">
+                                    <span className="princes__empresa">Bajaj Finery</span>
+                                    <span className="princes__porcentaje princes__porcentaje--rojo">10% loss</span>
+                                </div>
+                                <div className="prices__lateral">
+                                    <span className="prices__price">$1839.00</span>
+                                    <AiOutlineDownCircle className='price__circule price__circule--rojo'/> 
+                                </div>    
+                            </div>
+
+                            <div className="prices__card">
+                                <div className="prices__info">
+                                    <span className="princes__empresa">Bajaj Finery</span>
+                                    <span className="princes__porcentaje princes__porcentaje--verde">10% Profit</span>
+                                </div>
+                                <div className="prices__lateral">
+                                    <span className="prices__price">$1839.00</span>
+                                    <AiOutlineUpCircle className='price__circule price__circule--green'/> 
+                                </div>    
+                            </div>
+                            <div className="prices__card">
+                                <div className="prices__info">
+                                    <span className="princes__empresa">Bajaj Finery</span>
+                                    <span className="princes__porcentaje princes__porcentaje--rojo">10% loss</span>
+                                </div>
+                                <div className="prices__lateral">
+                                    <span className="prices__price">$1839.00</span>
+                                    <AiOutlineDownCircle className='price__circule price__circule--rojo'/> 
+                                </div>    
+                            </div>
+                            <div className="prices__card">
+                                <div className="prices__info">
+                                    <span className="princes__empresa">Bajaj Finery</span>
+                                    <span className="princes__porcentaje princes__porcentaje--rojo">10% loss</span>
+                                </div>
+                                <div className="prices__lateral">
+                                    <span className="prices__price">$1839.00</span>
+                                    <AiOutlineDownCircle className='price__circule price__circule--rojo'/> 
+                                </div>    
+                            </div>
+                           
                         </div>
                     </div>
                 </div>

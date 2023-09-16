@@ -178,3 +178,78 @@
     color:rgb(255, 136, 0);
     background-color: rgba(206, 212, 25, 0.227);
 }
+
+.lateral__price{
+    font-weight: bold;
+}
+.popular{
+    margin: 10px 0;
+}
+.pupular__span{
+    font-weight: 900;
+    margin: 20px ;
+}
+
+.popular__card{
+    background-color: rgb(104, 23, 180 , 0.2);
+    height: 90px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.popular__info{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.popular__titleSpan{
+    color: rgb(104, 23, 180) ;
+}
+
+.popular__porcentaje{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.popular__price{
+    font-weight: 500;
+}
+
+.prices__card{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgba(0, 0, 0, 0.159) 1px;
+}
+.prices__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.princes__porcentaje{
+    font-size: 0.8rem;
+}
+
+.princes__porcentaje--verde{
+    color: rgb(46, 200, 46);
+}
+.princes__porcentaje--rojo{
+    color: rgb(223, 93, 28);
+}
+.prices__lateral{
+    display: flex;
+    
+}
+.price__circule{
+    margin: 0 5px;
+}
+.price__circule--green{
+    color: rgb(46, 200, 46);
+}
+.price__circule--rojo{
+    color: rgb(223, 93, 28);
+}
